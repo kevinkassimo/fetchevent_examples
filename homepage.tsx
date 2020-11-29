@@ -1,7 +1,7 @@
 import { Fragment, h, homepage } from "./homepage/mod.tsx";
 
 const PROJECTS: Record<string, string> = {
-  "dext.ts": "https://github.com/lucacasonato/dext.ts",
+  Homepage: "https://ksm.sh",
   Deno: "https://github.com/denoland/deno",
 };
 
@@ -10,11 +10,11 @@ homepage(() => {
     <>
       <header>
         <img
-          src="https://avatars0.githubusercontent.com/u/7829205"
+          src="https://avatars2.githubusercontent.com/u/15007517"
           style="max-width: 120px"
         />
-        <h2>Luca Casonato</h2>
-        <a href="mailto:luca@deno.com">luca@deno.com</a>
+        <h2>Kevin Qian</h2>
+        <a href="mailto:kevinkassimo@gmail.com">kevinkassimo@gmail.com</a>
       </header>
       <div style="margin-top: 64px;">
         {Object.keys(PROJECTS).map((name) => (

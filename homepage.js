@@ -1,7 +1,7 @@
 import { h, Fragment, homepage } from "./homepage/mod.js";
 
 const PROJECTS = {
-  "dext.ts": "https://github.com/lucacasonato/dext.ts",
+  Homepage: "https://ksm.sh",
   Deno: "https://github.com/denoland/deno",
 };
 
@@ -13,11 +13,11 @@ homepage(() => {
       "header",
       {},
       h("img", {
-        src: "https://avatars0.githubusercontent.com/u/7829205",
+        src: "https://avatars2.githubusercontent.com/u/15007517",
         style: "max-width: 120px",
       }),
-      h("h2", {}, "Luca Casonato"),
-      h("a", { href: "luca@deno.com" }, "luca@deno.com")
+      h("h2", {}, "Kevin Qian"),
+      h("a", { href: "kevinkassimo@gmail.com" }, "kevinkassimo@gmail.com")
     ),
     h(
       "div",
